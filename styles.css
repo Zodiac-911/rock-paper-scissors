@@ -84,7 +84,7 @@ body {
 
 .scissors {
   border: unset;
-  box-shadow: inset 0 var(--shadow) 0 hsl(39, 78%, 42%);
+  box-shadow: inset 0 var(--shadow) 0 hsl(34, 78%, 42%);
   background-color: hsl(39, 89%, 49%);
 }
 .button {
