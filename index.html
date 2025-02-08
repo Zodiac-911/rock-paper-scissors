@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="stats">
+        <img src="images/logo.svg" alt="Rock Paper Scissors" />
+        <div class="score">
+          <p>SCORE</p>
+          <p>12/07</p>
+        </div>
+      </div>
+      <div class="step-1 hidden">
+        <button class="paper button">
+          <div><img src="images/icon-paper.svg" alt="Paper" /></div>
+        </button>
+        <button class="scissors button">
+          <div><img src="images/icon-scissors.svg" alt="Scissors" /></div>
+        </button>
+        <button class="rock button">
+          <div><img src="images/icon-rock.svg" alt="Rock" /></div>
+        </button>
+      </div>
+      <div class="step-2 step hidden">
+        <div class="picked">
+          <p>You Picked</p>
+          <button class="scissors button">
+            <div><img src="images/icon-scissors.svg" alt="Scissors" /></div>
+          </button>
+        </div>
+        <div class="picked">
+          <p>The House Picked</p>
+          <div class="place-holder">
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <div class="step-3 step hidden">
+        <div class="picked">
+          <p>You Picked</p>
+          <button class="scissors button">
+            <div><img src="images/icon-scissors.svg" alt="Scissors" /></div>
+          </button>
+        </div>
+        <div class="picked">
+          <p>The House Picked</p>
+          <button class="rock button">
+            <div><img src="images/icon-rock.svg" alt="Rock" /></div>
+          </button>
+        </div>
+      </div>
+      <div class="step-4 step show">
+        <div class="picked">
+          <p>You Picked</p>
+          <button class="scissors button">
+            <div><img src="images/icon-scissors.svg" alt="Scissors" /></div>
+          </button>
+        </div>
+        <div class="result">
+          <p>You Lose</p>
+          <button>play again</button>
+        </div>
+        <div class="picked">
+          <p>The House Picked</p>
+          <button class="rock button">
+            <div><img src="images/icon-rock.svg" alt="Rock" /></div>
+          </button>
+        </div>
+      </div>
+    </div>
 
-  Score
+    <!-- Score 
   Rules
 
   You Picked
@@ -17,21 +93,6 @@
   You Win
   You Lose
 
-  Play Again
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  Play Again-->
+  </body>
 </html>
