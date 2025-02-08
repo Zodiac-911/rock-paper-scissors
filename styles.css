@@ -241,3 +241,29 @@ body {
   background-color: rgba(255, 255, 255, 0.055);
   font-size: large;
 }
+@media screen and (max-width: 750px) {
+  body {
+    align-items: center;
+    justify-content: unset;
+    padding: 40px;
+  }
+  .step-1 {
+    justify-content: center;
+    scale: 0.9;
+  }
+  .step {
+    scale: 0.5;
+    justify-content: center;
+  }
+  .stats {
+    max-width: unset;
+    justify-content: space-between;
+    padding: 32px 28px;
+    border-radius: 12px;
+    height: unset;
+  }
+  .rules-button {
+    position: unset;
+    margin-top: 80px;
+  }
+}
